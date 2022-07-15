@@ -19,7 +19,7 @@ async function getPosts (coll) {
       post.id = doc.id;
       newPosts.push(post);
     });
-    console.log('posts', newPosts);
+    // console.log('posts', newPosts);
     setPosts(newPosts);
 }
 

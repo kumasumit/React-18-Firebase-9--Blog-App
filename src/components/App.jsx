@@ -8,7 +8,7 @@ const App = () => {
       <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="/post:postId" element={<PostDetail/>}/>
+      <Route path="/post/:postId" element={<PostDetail/>}/>
       <Route path="/create-post" element={<CreatePost/>}/>
     </Routes>
 
